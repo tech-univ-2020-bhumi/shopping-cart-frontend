@@ -10,13 +10,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
+import NotificationBadge, { Effect } from 'react-notification-badge';
 import ProductsPage from './ProductsPage';
+import Cart from './Cart';
 
 
 library.add(
   fab,
   faShoppingCart,
 );
+
 const App = () => {
   const [cartCount, setCartCount] = useState(0);
   return (
@@ -26,12 +29,15 @@ const App = () => {
           <Link to="/cart">
             <button type="button" className="cart-icon">
               <FontAwesomeIcon icon="shopping-cart" />
+              <NotificationBadge count={cartCount} effect={Effect.SCALE} />
             </button>
           </Link>
         </div>
         <div className="app-body">
           <Switch>
-            <Route exact path="/cart" />
+            <Route exact path="/cart">
+              <Cart />
+            </Route>
             <Route path="/">
               <ProductsPage
                 cartCount={cartCount}

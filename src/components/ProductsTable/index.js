@@ -15,8 +15,8 @@ function ProductsTable(props) {
           <tr>
             <td>{product.name}</td>
             <td>{product.price}</td>
-            <td>{product.cart}</td>
-            <td>{product.price * product.cart}</td>
+            <td>{product.count}</td>
+            <td>{product.price * product.count}</td>
           </tr>,
         );
       });

@@ -7,14 +7,16 @@ const useFilteredProducts = () => {
   const [totalCost, setTotalCost] = useState(0);
   const [cartCount, setCartCount] = useState(0);
   useEffect(() => {
+    console.log('hey inside filter');
     const getProductList = async () => {
       let total = 0;
       let count = 0;
       const productResponse = await axios.get('http://localhost:8080/products');
       setProductsList(productResponse.data);
+      console.log(productResponse.data);
       productResponse.data.forEach((product) => {
         if (product.count !== 0) {
-          if (filteredProducts[product.category] === undefined) {
+          if (!filteredProducts[product.category]) {
             filteredProducts[product.category] = [product];
             total += product.count * product.price;
             count += product.count;

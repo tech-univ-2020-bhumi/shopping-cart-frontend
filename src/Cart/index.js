@@ -7,7 +7,7 @@ import Button from '../components/Button';
 import * as styles from './index.module.css';
 import useFilteredProducts from '../filteredProducts';
 
-const CartPage = () => {
+const Cart = () => {
   const history = useHistory();
   const [filteredProducts, totalCost, cartCount, productsList] = useFilteredProducts();
   const onCheckout = async () => {
@@ -39,4 +39,4 @@ const CartPage = () => {
   );
 };
 
-export default CartPage;
+export default Cart;

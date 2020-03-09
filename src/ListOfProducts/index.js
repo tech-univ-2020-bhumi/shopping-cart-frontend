@@ -43,7 +43,7 @@ const ListOfProducts = (props) => {
   } else if (filterCategory !== undefined && productList !== undefined) {
     const filteredProducts = productList.filter((product) => product.category === filterCategory);
     filteredProducts.forEach((product) => {
-      if (product.quantity !== product.cart) {
+      if (product.quantity !== product.count) {
         products.push(<Products
           cardStyle="normal"
           id={product.id}

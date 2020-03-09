@@ -3,8 +3,7 @@ import propTypes from 'prop-types';
 import './index.css';
 import Counter from '../CounterSection';
 
-
-function Product(props) {
+function Products(props) {
   const {
     id, name, link, price, count, quantity, cartCount, setCartCount, cardStyle,
   } = props;
@@ -32,7 +31,7 @@ function Product(props) {
 
   );
 }
-Product.propTypes = {
+Products.propTypes = {
   cartCount: propTypes.number.isRequired,
   price: propTypes.number.isRequired,
   cardStyle: propTypes.string.isRequired,
@@ -44,4 +43,4 @@ Product.propTypes = {
   setCartCount: propTypes.func.isRequired,
 };
 
-export default Product;
+export default Products;

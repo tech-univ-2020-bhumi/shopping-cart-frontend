@@ -3,7 +3,6 @@ import propTypes from 'prop-types';
 import axios from 'axios';
 import * as styles from './index.module.css';
 
-
 const Counter = (props) => {
   const {
     id, setCartCount, cartCount, max,
@@ -13,7 +12,7 @@ const Counter = (props) => {
   const onClickCounter = (sign) => {
     if (sign === '+' && cartValue < max) {
       const patchCart = async () => {
-        axios.patch(`http://localhost:8080/products/${id}/cart`, {
+        await axios.patch(`http://localhost:8080/products/${id}/cart`, {
           value: cartValue + 1,
         });
         setCartValue(cartValue + 1);
@@ -22,7 +21,7 @@ const Counter = (props) => {
       patchCart();
     } else if (sign === '-' && cartValue > 0) {
       const patchCart = async () => {
-        axios.patch(`http://localhost:8080/products/${id}/cart`, {
+        await axios.patch(`http://localhost:8080/products/${id}/cart`, {
           value: cartValue - 1,
         });
         setCartValue(cartValue - 1);
