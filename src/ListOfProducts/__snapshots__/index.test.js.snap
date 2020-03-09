@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the products page container should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div />
+    <div />
+  </div>
+</DocumentFragment>
+`;
