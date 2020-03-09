@@ -1,11 +1,11 @@
 import React from 'react';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
-import ProductsTable from '../components/ProductsTable';
-import TotalCost from '../components/TotalCost';
-import Button from '../components/Button';
+import ProductsTable from '../../components/ProductsTable';
+import TotalCost from '../../components/TotalCost';
+import Button from '../../components/Button';
 import * as styles from './index.module.css';
-import useFilteredProducts from '../hooks/filteredProducts';
+import useFilteredProducts from '../../hooks/filteredProducts';
 
 const Cart = () => {
   const history = useHistory();

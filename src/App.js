@@ -12,7 +12,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 import NotificationBadge, { Effect } from 'react-notification-badge';
 import ProductsPage from './containers/ProductsPage';
-import Cart from './Cart';
+import Cart from './containers/Cart';
 
 
 library.add(
