@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the Counter component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="counter-div"
+  >
+    <button
+      data-testid="decrement"
+      type="button"
+    >
+      -
+    </button>
+    <button
+      data-testid="increment"
+      type="button"
+    >
+      +
+    </button>
+  </div>
+</DocumentFragment>
+`;

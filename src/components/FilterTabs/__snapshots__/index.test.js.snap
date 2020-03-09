@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the FilterTab component should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <button
+      data-testid="filter-button"
+      type="button"
+    >
+      All
+    </button>
+  </div>
+</DocumentFragment>
+`;
