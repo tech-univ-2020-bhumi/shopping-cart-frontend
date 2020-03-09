@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the TotalCost component should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <div>
+        Total
+      </div>
+      <div>
+        RS
+      </div>
+      <div />
+    </div>
+    <hr />
+    <div>
+      <button
+        data-testid="test-btn"
+        type="button"
+      >
+        Checkout
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
