@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the ProductsTable component should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <table
+      border="1"
+    >
+      <tbody>
+        <tr>
+          <th>
+            Item
+          </th>
+          <th>
+            Price
+          </th>
+          <th>
+            Quantity
+          </th>
+          <th>
+            Subtotal
+          </th>
+        </tr>
+      </tbody>
+      <tbody />
+    </table>
+  </div>
+</DocumentFragment>
+`;
