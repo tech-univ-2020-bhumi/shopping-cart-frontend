@@ -1,0 +1,22 @@
+.cart{
+    display: flex;
+    height: 4.5rem;
+    width: 5rem;
+    justify-content: flex-end;
+    margin-left: 100rem;
+    margin-right: -37rem;
+    margin-top: 1rem;
+    padding-left: 6rem;
+}
+
+.notif{
+    margin-top: -4.5rem;
+    height: 1rem;
+    margin-right: -37rem;
+}
+
+.header{
+    display:flex;
+    border: 1px solid grey;
+    box-shadow: 0px 5px rgb(216, 211, 211);
+}
