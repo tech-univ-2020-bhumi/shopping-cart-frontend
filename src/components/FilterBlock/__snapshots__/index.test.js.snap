@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the FilterBlock component  should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="test-filter-block"
+  >
+    <h3>
+      Filter Categories
+    </h3>
+    <div />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`the Header component  should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="test-filter-block"
+  >
+    <h3>
+      Filter Categories
+    </h3>
+    <div />
+  </div>
+</DocumentFragment>
+`;
