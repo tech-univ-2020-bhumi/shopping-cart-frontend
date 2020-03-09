@@ -5,7 +5,7 @@ import ProductsTable from '../components/ProductsTable';
 import TotalCost from '../components/TotalCost';
 import Button from '../components/Button';
 import * as styles from './index.module.css';
-import useFilteredProducts from '../filteredProducts';
+import useFilteredProducts from '../hooks/filteredProducts';
 
 const Cart = () => {
   const history = useHistory();

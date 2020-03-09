@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import propTypes from 'prop-types';
 import ListOfProducts from '../ListOfProducts';
-import FilterTabs from '../components/FilterTabs';
+import FilterTabs from '../../components/FilterTabs';
 import * as styles from './index.module.css';
-import useProductsAndCategories from '../productsCategories';
+import useProductsAndCategories from '../../hooks/productsCategories';
 
 const ProductsPage = (props) => {
   const { cartCount, setCartCount } = props;
