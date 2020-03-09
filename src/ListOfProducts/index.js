@@ -18,7 +18,7 @@ const ListOfProducts = (props) => {
           name={product.name}
           price={product.price}
           count={product.count}
-          imageLink={product.imageLink}
+          link={product.link}
           key={product.id}
           quantity={product.quantity}
           cartCount={cartCount}
@@ -30,8 +30,8 @@ const ListOfProducts = (props) => {
           id={product.id}
           name={product.name}
           price={product.price}
-          cart={product.count}
-          imageLink={product.imageLink}
+          count={product.count}
+          link={product.link}
           key={product.id}
           quantity={product.quantity}
           cartCount={cartCount}
@@ -50,7 +50,7 @@ const ListOfProducts = (props) => {
           name={product.name}
           price={product.price}
           count={product.count}
-          imageLink={product.imageLink}
+          link={product.link}
           quantity={product.quantity}
           key={product.id}
           cartCount={cartCount}
@@ -63,7 +63,7 @@ const ListOfProducts = (props) => {
           name={product.name}
           price={product.price}
           count={product.count}
-          imageLink={product.imageLink}
+          link={product.link}
           quantity={product.quantity}
           key={product.id}
           cartCount={cartCount}

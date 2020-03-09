@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the products page  should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <div>
+        Filter categories
+      </div>
+      <div>
+        <button
+          data-testid="filter-button"
+          type="button"
+        >
+          All
+        </button>
+      </div>
+    </div>
+    <div>
+      <div>
+        All
+      </div>
+      <div />
+    </div>
+  </div>
+</DocumentFragment>
+`;

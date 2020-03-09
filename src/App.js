@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import FilterBlock from './components/FilterBlock';
+import ProductsPage from './ProductsPage';
 
 const App = () => (
   <div className="App">
     <Header testId="header-test" />
-    <FilterBlock />
+    <ProductsPage />
   </div>
 );
 
